@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyFoodApp</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="register_now"><u>Don\'t have an account? Sign up now</u></string>
+    <string name="enter_details">Enter your registered mobile number and email below:</string>
+    <string name="Home">Home</string>
+    <string name="Profile">My Profile</string>
+    <string name="Favourite">Favourite Restaurants</string>
+    <string name="Faq">FAQs</string>
+    <string name="Logout">Logout</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="preference_file_name">FoodApp </string>
+    <string name="Question">Q1. What will be the mode of training?</string>
+    <string name="answer1">A1. It will be conducted in Online Mode.</string>
+
+    <string name="Question2">Q2. What is the fees of training?</string>
+    <string name="answer2">A2. It will be different for each course. Check it on the official website</string>
+
+    <string name="Question3">Q3. In how much time will the query be rectified?</string>
+    <string name="answer3">A3. It will be rectified within 24 hours.</string>
+
+    <string name="Question4">Q4. Can I get an extension in my training if i am unable to finish it within deadline?</string>
+    <string name="answer4">A4. You will get an extra week in case you are unable to finish it in given timeframe.</string>
+    <string name="no_favorites">not_favourite</string>
+    <string name="Orders">Order History</string>
+</resources>

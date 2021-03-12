@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/llcontent1"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:weightSum="6">
+        <TextView
+            android:id="@+id/txtSNo"
+            android:text="1"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            />
+        <RelativeLayout
+            android:layout_weight="3.3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/txtItemName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Name of the Dish"
+                android:maxLines="1"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/txtItemCost"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="Rs. 299"
+                android:padding="8dp"
+                android:layout_below="@id/txtItemName"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#357a38"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_weight="1.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+
+            <Button android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Remove"
+                android:id="@+id/btnRemoveFromCart"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorPrimary"
+                android:layout_height="40dp"/>
+            <Button android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:text="add"
+                android:id="@+id/btnAddToCart"
+                android:textColor="#FFFFFF"
+                android:background="@color/colorPrimary"
+                android:layout_height="40dp"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
